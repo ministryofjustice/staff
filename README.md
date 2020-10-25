@@ -2,7 +2,7 @@
 
 ## About this repository
 Below are the repositories we use to build or configure MoJ Official infrastructure devices
-## Other Useful Repositories
+## Our Repositories
 ### Core Repositories
 | Name                   | Description                                                                  | Link                                                        |
 |------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------|
