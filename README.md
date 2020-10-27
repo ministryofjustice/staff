@@ -35,7 +35,7 @@ Azure Landing Zone
 
 Device Management
 - https://github.com/ministryofjustice/staff-device-management-windows10-configuration
-- https://github.com/ministryofjustice/staff-device-management-windows1-apps
+- https://github.com/ministryofjustice/staff-device-management-windows10-apps
 - https://github.com/ministryofjustice/staff-device-management-ios-configuration
 - https://github.com/ministryofjustice/staff-device-management-ios-apps
 - https://github.com/ministryofjustice/staff-device-management-virtualdesktop
