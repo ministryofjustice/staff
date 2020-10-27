@@ -13,7 +13,7 @@ Infrastructure Monitoring and Alerting Platoform | Our repository for monitoring
 - [Blackbox Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-blackbox-exporter) - to probe endpoints over HTTP, HTTPS, DNS, TCP and ICMP.s (Docker image)
 - [Metric Aggregation Server](https://github.com/ministryofjustice/staff-infrastructure-metric-aggregation-server) - to pull data from the SNMP exporter (Docker image)
 ### Environment
-- https://github.com/ministryofjustice/pttp-shared-services-infrastructure - to create the infrastructure for the main shared account.
+- https://github.com/ministryofjustice/pttp-shared-services-infrastructure - to create infrastructure from the main shared account into Dev, Prep and Production.
 
 DHCP / DNS
 - https://github.com/ministryofjustice/staff-device-dhcp-server - creates the docker server image for isc key
