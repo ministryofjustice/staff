@@ -10,7 +10,7 @@ Infrastructure Monitoring and Alerting Platoform | Our repository for monitoring
 - [IMA Platform](https://github.com/ministryofjustice/staff-infrastructure-monitoring) - to monitor PTTP infrastructure and physical devices
 - [Data Source Configuration](https://github.com/ministryofjustice/staff-infrastructure-monitoring-datasource-config) - to provision data sources for the IMA Platform
 - [SNMP Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-snmpexporter) - to scrape data from physical devices (Docker image)
-- [Blackbox Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-blackbox-exporter) - to probe endpoints over HTTP, HTTPS, DNS, TCP and ICMP.s (Docker image)
+- [Blackbox Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-blackbox-exporter) - to probe endpoints over HTTP, HTTPS, DNS, TCP and ICMP (Docker image)
 - [Metric Aggregation Server](https://github.com/ministryofjustice/staff-infrastructure-metric-aggregation-server) - to pull data from the SNMP exporter (Docker image)
 ### Environment
 - https://github.com/ministryofjustice/pttp-shared-services-infrastructure - to create infrastructure from the main shared account into Dev, Prep and Production.
@@ -41,4 +41,3 @@ Device Management
 Certificate Services 
 - https://github.com/ministryofjustice/staff-infrastructure-certificate-services
 
-## Other Useful Repositories
