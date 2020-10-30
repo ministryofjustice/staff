@@ -34,6 +34,9 @@ Azure Landing Zone
 - https://github.com/ministryofjustice/staff-infrastructure-azure-landing-zone
 
 Device Management
+- https://github.com/ministryofjustice/staff-device-management-windows10-configuration
+- https://github.com/ministryofjustice/staff-device-management-windows10-apps
+- https://github.com/ministryofjustice/staff-device-management-ios-configuration
 - https://github.com/ministryofjustice/staff-device-management-ios-apps
 - https://github.com/ministryofjustice/staff-device-management-virtualdesktop
 - https://github.com/ministryofjustice/moj-official-intune
