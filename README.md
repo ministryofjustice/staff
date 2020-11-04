@@ -28,7 +28,7 @@ Palo Alto Transit Gateway deployment
 - https://github.com/ministryofjustice/deployment-GlobalProtect - global protec rotect firewall deployment
 - https://github.com/ministryofjustice/deployment-tgw - aws transit gateway deployment
 - https://github.com/ministryofjustice/terraform-aws-step_function_globalprotect
-
+- https://github.com/ministryofjustice/terraform-panorama-config - Panorama Config written in Terraform
 
 Azure Landing Zone
 - https://github.com/ministryofjustice/staff-infrastructure-azure-landing-zone
