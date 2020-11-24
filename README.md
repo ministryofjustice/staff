@@ -12,7 +12,7 @@ Repositories used for MoJ Official infrastructure and staff device provision and
 - [Metric Aggregation Server](https://github.com/ministryofjustice/staff-infrastructure-metric-aggregation-server) - to pull data from the SNMP exporter (Docker image)
 
 DHCP / DNS
-- https://github.com/ministryofjustice/staff-device-dhcp-server - creates the docker server image for isc key
+- https://github.com/ministryofjustice/staff-device-dhcp-server - creates the AWS ECR container image for ISC Kea
 - https://github.com/ministryofjustice/staff-device-dns-dhcp-admin - frontend for managing staff device site dhcp dns
 - https://github.com/ministryofjustice/staff-device-dns-dhcp-infrastructure - code to build the aws infrastructure for the DNS and DHCP platform
 
