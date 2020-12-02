@@ -21,14 +21,14 @@ Repositories used for MoJ Official infrastructure and staff device provisioning 
 - https://github.com/ministryofjustice/staff-device-logging-syslog-to-cloudwatch - syslog to aws cloudwatch
 
 ### Palo Alto Transit Gateway deployment
-- https://github.com/ministryofjustice/deployment-GlobalProtect - global protec rotect firewall deployment
+- https://github.com/ministryofjustice/deployment-GlobalProtect - global protect firewall deployment
 - https://github.com/ministryofjustice/deployment-tgw - aws transit gateway deployment
-- https://github.com/ministryofjustice/terraform-aws-step_function_globalprotect
+- https://github.com/ministryofjustice/terraform-aws-step_function_globalprotect - global protect lambda funtions
 - https://github.com/ministryofjustice/terraform-panorama-config - Panorama Config written in Terraform
 - https://github.com/ministryofjustice/deployment-PSN - Public Services Network connection in AWS, connected via Lumen (previously CenturyLink)
 
 ### Azure Landing Zone
-- https://github.com/ministryofjustice/staff-infrastructure-azure-landing-zone
+- https://github.com/ministryofjustice/staff-infrastructure-azure-landing-zone - azure pipeline configuration
 
 ### Device Management
 - https://github.com/ministryofjustice/staff-device-management-windows10-configuration
