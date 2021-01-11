@@ -3,7 +3,7 @@
 ## About this repository
 Repositories used for MoJ Official infrastructure and staff device provisioning and management.
 ### Environment Deployments
-- https://github.com/ministryofjustice/pttp-shared-services-infrastructure - to create infrastructure from the main AWS shared account into Dev, Prep and Production via AWS CodePipelines
+- https://github.com/ministryofjustice/staff-device-shared-services-infrastructure - to create infrastructure from the main AWS shared account into Dev, Prep and Production via AWS CodePipelines
 ### Infrastrastrcuture Monitoring and Alerting
 - [IMA Platform](https://github.com/ministryofjustice/staff-infrastructure-monitoring) - to monitor PTTP infrastructure and physical devices
 - [Data Source Configuration](https://github.com/ministryofjustice/staff-infrastructure-monitoring-datasource-config) - to provision data sources for the IMA Platform
