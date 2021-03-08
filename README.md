@@ -1,6 +1,6 @@
 # Ministry of Justice Official Staff Infrastructure and Devices
 
-### About this repository
+## About this repository
 
 Repositories used for MoJ Official infrastructure, staff device configuration,provisioning and management.
 
