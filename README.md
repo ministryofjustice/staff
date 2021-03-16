@@ -37,7 +37,7 @@ Lists repositories used of MoJ Official infrastructure, staff device configurati
 - [Admin console for DHCP and DNS](https://github.com/ministryofjustice/staff-device-dns-dhcp-admin) - Frontend for managing staff device site dhcp dns
 - [Provision infrastructure](https://github.com/ministryofjustice/staff-device-dns-dhcp-infrastructure) - Code to build the AWS infrastructure for the DNS and DHCP platform
 
-### AWS Environment Deployments
+### Environment Deployments - AWS
 
 ![AWS Environments](diagrams/hld-aws-env.png)
 [Image Source](diagrams/hld-diagrams.drawio)
@@ -55,10 +55,13 @@ Lists repositories used of MoJ Official infrastructure, staff device configurati
 - [Log Shipping Infrastructure](https://github.com/ministryofjustice/staff-device-logging-infrastructure) - Log shipping to infrastructure > OST
 - [Syslog to CloudWatch](https://github.com/ministryofjustice/staff-device-logging-syslog-to-cloudwatch) - Syslog to aws cloudwatch > OST
 
-### Palo Alto Transit Gateway deployment
-
+### Palo Alto Global Protect
 - [GlobalProtect FW EC2 Deployment](https://github.com/ministryofjustice/deployment-GlobalProtect) - GlobalProtect firewall deployment
 - [GlobalProtect lambda functions](https://github.com/ministryofjustice/terraform-aws-step_function_globalprotect) - GlobalProtect lambda funtions
-- [AWS Transit Gateway](https://github.com/ministryofjustice/deployment-tgw) - AWS transit gateway deployment
 - [Panorama Configuration](https://github.com/ministryofjustice/terraform-panorama-config) - Panorama Config written in Terraform
 - [Public Services Network](https://github.com/ministryofjustice/deployment-PSN) - Public Services Network connection in AWS, connected via Lumen (previously CenturyLink)
+
+### Transit Gateway
+
+- [AWS Transit Gateway Configuration](https://github.com/ministryofjustice/terraform-aws-tgw) - AWS transit gateway deployment configuration
+- [AWS Transit Gateway Deployment](https://github.com/ministryofjustice/deployment-tgw) - AWS transit gateway deployment
