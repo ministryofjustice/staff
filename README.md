@@ -9,6 +9,18 @@ Lists repositories used of MoJ Official infrastructure, staff device configurati
 ![High Level Diagram](diagrams/hld.png)
 [image source](diagrams/hld-diagrams.drawio)
 
+### Application / Service index
+
+List of our applications which we use to identify and tag our resources.
+
+| Application           | Value                                                     |
+| --------------- | --------------------------------------------------------- |
+| `Azure Landing Zone Hub` | `azl-hub`                                               |
+| `Certificate Services`   | `pki-mojo`                                        |
+| `DNS and DHCP` | `dns-dhcp`                                         |
+| `Infrastructure Monitoring and Alerting`         | `ima` |
+| `Security Log Shipping`         | `sls` |
+
 ### Amazon Web Services Deployment
 
 - [Shared Services Infrastructure](https://github.com/ministryofjustice/staff-device-shared-services-infrastructure) - Create infrastructure from the main AWS shared account into Development, Pre Production and Production via AWS CodePipelines.
