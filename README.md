@@ -49,6 +49,7 @@ Lists repositories used of MoJ Official infrastructure, staff device configurati
 - [SNMP Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-snmpexporter) - To scrape data from physical devices (Docker image)
 - [Blackbox Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-blackbox-exporter) - To probe endpoints over HTTP, HTTPS, DNS, TCP and ICMP
 - [Metric Aggregation Server](https://github.com/ministryofjustice/staff-infrastructure-metric-aggregation-server) - To pull data from the SNMP exporter (Docker image)
+- [Helm Charts](https://github.com/ministryofjustice/staff-infrastructure-monitoring-deployments) - To deploy helm charts to EKS
 
 ### Security Log Aggregation and Shipping
 
