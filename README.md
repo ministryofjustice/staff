@@ -15,11 +15,15 @@ List of our applications which we use to identify and tag our resources.
 
 | Application           | Value                                                     |
 | --------------- | --------------------------------------------------------- |
-| `Azure Landing Zone Hub` | `azl-hub`                                               |
+| `Azure Landing Zone` | `alz`                                               |
 | `Certificate Services`   | `pki-mojo`                                        |
 | `DNS and DHCP` | `dns-dhcp`                                         |
 | `Infrastructure Monitoring and Alerting`         | `ima` |
 | `Security Log Shipping`         | `sls` |
+| `Standard Operating Platform`         | `sop` |
+| `Palo Alto Global Protect`         | `global-protect` |
+| `Palo Alto Transit Gateway`         | `tgw` |
+| `Public Services Network`         | `psn` |
 
 ### Amazon Web Services Deployment
 
@@ -62,6 +66,10 @@ List of our applications which we use to identify and tag our resources.
 - [Blackbox Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-blackbox-exporter) - To probe endpoints over HTTP, HTTPS, DNS, TCP and ICMP
 - [Metric Aggregation Server](https://github.com/ministryofjustice/staff-infrastructure-metric-aggregation-server) - To pull data from the SNMP exporter (Docker image)
 - [Helm Charts](https://github.com/ministryofjustice/staff-infrastructure-monitoring-deployments) - To deploy helm charts to EKS
+
+### Network Assessment
+
+- [Network Assessment Tooling](https://github.com/ministryofjustice) - Information on the tooling and resources used to verify prison site readiness
 
 ### Security Log Aggregation and Shipping
 
