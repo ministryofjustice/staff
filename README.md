@@ -52,6 +52,8 @@ List of our applications which we use to identify and tag our resources.
 - [DHCP Server ECR Image](https://github.com/ministryofjustice/staff-device-dhcp-server) - Creates the AWS ECR container image for ISC Kea
 - [Admin console for DHCP and DNS](https://github.com/ministryofjustice/staff-device-dns-dhcp-admin) - Frontend for managing staff device site dhcp dns
 - [Provision infrastructure](https://github.com/ministryofjustice/staff-device-dns-dhcp-infrastructure) - Code to build the AWS infrastructure for the DNS and DHCP platform
+- [Disarster Recovery runbook](https://github.com/ministryofjustice/staff-device-dns-dhcp-disaster-recovery) -This repo contains an interactive script which can be used to roll back a corrupt config file for the DNS or DHCP services.
+- [Staff Device DNS / DHCP / Logging integration tests](ministryofjustice/staff-device-logging-dns-dhcp-integration-tests) -These scripts emulate UDP traffic for both DHCP and Syslog requests. They are run from the Corsham VM to test the services over the network.
 
 ### Environment Deployments - AWS
 
