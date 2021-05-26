@@ -4,11 +4,6 @@
 
 Lists repositories used of MoJ Official infrastructure, staff device configuration, provisioning and management. Terraform is used to deploy most services to public cloud services.
 
-### High Level Diagram
-
-![High Level Diagram](diagrams/hld.png)
-[image source](diagrams/hld-diagrams.drawio)
-
 ### Application / Service index
 
 List of our applications which we use to identify and tag our resources.
@@ -55,11 +50,6 @@ List of our applications which we use to identify and tag our resources.
 - [Disarster Recovery runbook](https://github.com/ministryofjustice/staff-device-dns-dhcp-disaster-recovery) -This repo contains an interactive script which can be used to roll back a corrupt config file for the DNS or DHCP services.
 - [Staff Device DNS / DHCP / Logging integration tests](ministryofjustice/staff-device-logging-dns-dhcp-integration-tests) -These scripts emulate UDP traffic for both DHCP and Syslog requests. They are run from the Corsham VM to test the services over the network.
 
-### Environment Deployments - AWS
-
-![AWS Environments](diagrams/hld-aws-env.png)
-[Image Source](diagrams/hld-diagrams.drawio)
-
 ### Infrastructure Monitoring and Alerting
 
 - [IMA Platform](https://github.com/ministryofjustice/staff-infrastructure-monitoring) - To monitor and alert on MoJO infrastructure and physical devices
@@ -90,3 +80,13 @@ List of our applications which we use to identify and tag our resources.
 
 - [AWS Transit Gateway Configuration](https://github.com/ministryofjustice/terraform-aws-tgw) - AWS transit gateway deployment configuration
 - [AWS Transit Gateway Deployment](https://github.com/ministryofjustice/deployment-tgw) - AWS transit gateway deployment
+
+### High Level Diagram
+
+![High Level Diagram](diagrams/hld.png)
+[image source](diagrams/hld-diagrams.drawio)
+
+### AWS Versioning
+
+![AWS Environments](diagrams/hld-aws-env.png)
+[Image Source](diagrams/hld-diagrams.drawio)
