@@ -2,23 +2,7 @@
 
 ## About this repository
 
-Lists repositories used of MoJ Official infrastructure, staff device configuration, provisioning and management. Terraform is used to deploy most services to public cloud services.
-
-### Application / Service index
-
-List of our applications which we use to identify and tag our resources.
-
-| Application           | Value                                                     |
-| --------------- | --------------------------------------------------------- |
-| `Azure Landing Zone` | `alz`                                               |
-| `Certificate Services`   | `pki-mojo`                                        |
-| `DNS and DHCP` | `dns-dhcp`                                         |
-| `Infrastructure Monitoring and Alerting`         | `ima` |
-| `Security Log Shipping`         | `sls` |
-| `Standard Operating Platform`         | `sop` |
-| `Palo Alto Global Protect`         | `global-protect` |
-| `Palo Alto Transit Gateway`         | `tgw` |
-| `Public Services Network`         | `psn` |
+Lists repositories used of MoJ Official infrastructure, staff device configuration, provisioning and management. Terraform is used to deploy our services to public cloud services.
 
 ### Amazon Web Services Deployment
 
@@ -59,7 +43,6 @@ List of our applications which we use to identify and tag our resources.
 - [Metric Aggregation Server](https://github.com/ministryofjustice/staff-infrastructure-metric-aggregation-server) - To pull data from the SNMP exporter (Docker image)
 - [Helm Charts](https://github.com/ministryofjustice/staff-infrastructure-monitoring-deployments) - To deploy helm charts to EKS
 
-
 ### Network Assessment
 
 - [Network Assessment Tooling](https://github.com/ministryofjustice) - Information on the tooling and resources used to verify prison site readiness
@@ -81,12 +64,48 @@ List of our applications which we use to identify and tag our resources.
 - [AWS Transit Gateway Configuration](https://github.com/ministryofjustice/terraform-aws-tgw) - AWS transit gateway deployment configuration
 - [AWS Transit Gateway Deployment](https://github.com/ministryofjustice/deployment-tgw) - AWS transit gateway deployment
 
+### Tags for Application and Services
+
+List of our applications and services which we use to identify and tag our resources.
+
+| Tag       | Value                                                     |
+| --------------- | --------------------------------------------------------- |
+| `application` | `azure-landing-zone`                                               |
+| `application`   | `certificate-services`                                        |
+| `application` | `dhcp-dns`                                         |
+| `application`         | `infrastructure-monitoring` |
+| `application`         | `internet-gateway-service` |
+| `application`         | `security-log-shipping` |
+| `application`         | `standard-operating-platform` |
+| `application`         | `global-protect` |
+| `application`         | `transit-gateway` |
+| `application`         | `public-services-network` |
+
+Mandatory Tags
+
+| Tag        | Value                                                     |
+| --------------- | --------------------------------------------------------- |
+| `business-unit` | `HQ`                                               |
+| `is-production` | `true or false`                                               |
+| `owner` | `<team-name>: <team-email> cloud-ops or tech-ops`                                               |
+
+Optional Tags
+
+| Tag        | Value                                                     |
+| --------------- | --------------------------------------------------------- |
+| `environment-name` | `production, staging, test, or development`                                               |
+| `infrastructure-support` | `<team-name>: <team-email>`                                               |
+| `runbook` | `The URL of the service’s runbook.`                                               |
+| `source-code` | `The URL(s) for any source code repositories related to this infrastructure, comma separated.`                                               |
+
+Please see [Documenting owners of infrastructure](https://ministryofjustice.github.io/technical-guidance/documentation/standards/documenting-infrastructure-owners.html#documenting-owners-of-infrastructure) within MoJ Technical Guidance for more information on tagging.
+
 ### High Level Diagram
 
 ![High Level Diagram](diagrams/hld.png)
 [image source](diagrams/hld-diagrams.drawio)
 
-### AWS Versioning
+### AWS Account Structure and Deployment Diagram
 
 ![AWS Environments](diagrams/hld-aws-env.png)
 [Image Source](diagrams/hld-diagrams.drawio)
