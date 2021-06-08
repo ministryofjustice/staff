@@ -68,35 +68,37 @@ Lists repositories used of MoJ Official infrastructure, staff device configurati
 
 List of our applications and services which we use to identify and tag our resources.
 
-| Tag       | Value                                                     |
-| --------------- | --------------------------------------------------------- |
-| `application` | `azure-landing-zone`                                               |
-| `application`   | `certificate-services`                                        |
-| `application` | `dhcp-dns`                                         |
-| `application`         | `infrastructure-monitoring` |
-| `application`         | `internet-gateway-service` |
-| `application`         | `security-log-shipping` |
-| `application`         | `standard-operating-platform` |
-| `application`         | `global-protect` |
-| `application`         | `transit-gateway` |
-| `application`         | `public-services-network` |
+| Tag             | Value                                              |
+| --------------- | ---------------------------------------------------|
+| `application`   | `azure-landing-zone`                               |
+| `application`   | `certificate-services`                             |
+| `application`   | `dhcp-dns`                                         |
+| `application`   | `infrastructure-monitoring`                        |
+| `application`   | `internet-gateway-service`                         |
+| `application`   | `security-log-shipping`                            |
+| `application`   | `standard-operating-platform`                      |
+| `application`   | `global-protect`                                   |
+| `application`   | `transit-gateway`                                  |
+| `application`   | `public-services-network`                          |
 
 Mandatory Tags
 
-| Tag        | Value                                                     |
-| --------------- | --------------------------------------------------------- |
+| Tag             | Value                                              |
+| --------------- | ---------------------------------------------------|
+| `application`   | `<applicaiton>`                                    |
 | `business-unit` | `HQ`                                               |
-| `is-production` | `true or false`                                               |
-| `owner` | `<team-name>: <team-email> cloud-ops or tech-ops`                                               |
+| `is-production` | `true or false`                                    |
+| `owner`         | `<team-name>: <team-email> cloud-ops or tech-ops`  |
 
 Optional Tags
 
-| Tag        | Value                                                     |
-| --------------- | --------------------------------------------------------- |
-| `environment-name` | `production, staging, test, or development`                                               |
-| `infrastructure-support` | `<team-name>: <team-email>`                                               |
-| `runbook` | `The URL of the service’s runbook.`                                               |
-| `source-code` | `The URL(s) for any source code repositories related to this infrastructure, comma separated.`                                               |
+| Tag                      | Value                                                     |
+| ------------------------ | --------------------------------------------------------- |
+| `environment-name`       | `production, staging, test, or development`               |
+| `component`              | `API Gateway`                                             |
+| `infrastructure-support` | `<team-name>: <team-email>`                               |
+| `runbook`                | `The URL of the service’s runbook.`                       |
+| `source-code`            | `The URL(s) for any source code repositories related to this infrastructure, comma separated.` |
 
 Please see [Documenting owners of infrastructure](https://ministryofjustice.github.io/technical-guidance/documentation/standards/documenting-infrastructure-owners.html#documenting-owners-of-infrastructure) within MoJ Technical Guidance for more information on tagging.
 
