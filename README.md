@@ -63,6 +63,7 @@ Lists repositories used of MoJ Official infrastructure, staff device configurati
 
 - [AWS Transit Gateway Configuration](https://github.com/ministryofjustice/terraform-aws-tgw) - AWS transit gateway deployment configuration
 - [AWS Transit Gateway Deployment](https://github.com/ministryofjustice/deployment-tgw) - AWS transit gateway deployment
+- [AWS Transit Gateway Configuration Cloud Platform] - AWS transit gateway configuration that is now managed by TechOps. This was previously managed by Cloud Platform.
 
 ### Tags for Application and Services
 
