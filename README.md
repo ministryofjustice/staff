@@ -36,12 +36,16 @@ Lists repositories used of MoJ Official infrastructure, staff device configurati
 
 ### Infrastructure Monitoring and Alerting
 
-- [IMA Platform](https://github.com/ministryofjustice/staff-infrastructure-monitoring) - To monitor and alert on MoJO infrastructure and physical devices
-- [Data Source Configuration](https://github.com/ministryofjustice/staff-infrastructure-monitoring-config) - To provision data sources for the IMA Platform
-- [SNMP Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-snmpexporter) - To scrape data from physical devices (Docker image)
+- [App Reachability](https://github.com/ministryofjustice/staff-infrastructure-monitoring-app-reachability) - Container to remote write blackbox http application prometheus metrics 
 - [Blackbox Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-blackbox-exporter) - To probe endpoints over HTTP, HTTPS, DNS, TCP and ICMP
-- [Metric Aggregation Server](https://github.com/ministryofjustice/staff-infrastructure-metric-aggregation-server) - To pull data from the SNMP exporter (Docker image)
+- [DNS Reachability](https://github.com/ministryofjustice/staff-infrastructure-monitoring-dns-reachability) - Container to remote write blackbox DNS prometheus metrics
+- [Data Source Configuration](https://github.com/ministryofjustice/staff-infrastructure-monitoring-config) - To provision data sources for the IMA Platform
 - [Helm Charts](https://github.com/ministryofjustice/staff-infrastructure-monitoring-deployments) - To deploy helm charts to EKS
+- [IMA Platform](https://github.com/ministryofjustice/staff-infrastructure-monitoring) - To monitor and alert on MoJO infrastructure and physical devices
+- [Metric Aggregation Server](https://github.com/ministryofjustice/staff-infrastructure-metric-aggregation-server) - To pull data from the SNMP exporter (Docker image)
+- [Private DNS Zone](https://github.com/ministryofjustice/staff-device-private-dns-zone) - Add private DNS zones into Route53
+- [SNMP Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-snmpexporter) - To scrape data from physical devices (Docker image)
+
 
 ### Network Assessment
 
