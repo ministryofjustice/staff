@@ -56,6 +56,11 @@ Lists repositories used of MoJ Official infrastructure, staff device configurati
 - [Log Shipping Infrastructure](https://github.com/ministryofjustice/staff-device-logging-infrastructure) - Log shipping to infrastructure > OST
 - [Syslog to CloudWatch](https://github.com/ministryofjustice/staff-device-logging-syslog-to-cloudwatch) - Syslog to aws cloudwatch > OST
 
+### SMTP Relay Service
+
+- [SMTP Relay Configuration](https://github.com/ministryofjustice/staff-infrastructure-smtp-relay-server)
+- [Network Services Deployment](https://github.com/ministryofjustice/staff-infrastructure-network-services)
+
 ### Palo Alto Global Protect
 
 - [GlobalProtect FW EC2 Deployment](https://github.com/ministryofjustice/deployment-GlobalProtect) - GlobalProtect firewall deployment
