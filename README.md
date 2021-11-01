@@ -64,6 +64,7 @@ Lists repositories used of MoJ Official infrastructure, staff device configurati
 ### Palo Alto Global Protect
 
 - [GlobalProtect FW EC2 Deployment](https://github.com/ministryofjustice/deployment-GlobalProtect) - GlobalProtect firewall deployment
+- [GlobalProtect ASG Deployment](https://github.com/ministryofjustice/deployment-GlobalProtect-ASG) - GlobalProtect Autoscale Deployment
 - [GlobalProtect lambda functions](https://github.com/ministryofjustice/terraform-aws-step_function_globalprotect) - GlobalProtect lambda functions
 - [Panorama Configuration](https://github.com/ministryofjustice/terraform-panorama-config) - Panorama Config written in Terraform
 - [Public Services Network](https://github.com/ministryofjustice/deployment-PSN) - Public Services Network connection in AWS, connected via Lumen (previously CenturyLink)
