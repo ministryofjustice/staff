@@ -108,6 +108,7 @@ Optional Tags
 | `environment-name`       | `production, staging, test, or development`               |
 | `component`              | `API Gateway`                                             |
 | `infrastructure-support` | `<team-name>: <team-email>`                               |
+| `monitor`                | `true or false`                                           |
 | `runbook`                | `The URL of the service’s runbook.`                       |
 | `source-code`            | `The URL(s) for any source code repositories related to this infrastructure, comma separated.` |
 
