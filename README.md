@@ -25,6 +25,7 @@ Lists repositories used of MoJ Official infrastructure, staff device configurati
 - [iOS Applications](https://github.com/ministryofjustice/staff-device-management-ios-apps) - iOS Applications
 - [Windows Virtual Desktop](https://github.com/ministryofjustice/staff-device-management-virtualdesktop) - WVD - Windows Virtual Desktop
 - [Intune Configuration](https://github.com/ministryofjustice/moj-official-intune) - Intune Configuration
+- [Intune Scripts](https://github.com/ministryofjustice/staff-device-management-intune-scripts) - Scripts that are deployed to run on EUC devices managed by Microsoft Intune
 
 ### DHCP / DNS
 
