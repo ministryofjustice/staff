@@ -97,7 +97,7 @@ Mandatory Tags
 
 | Tag             | Value                                              |
 | --------------- | ---------------------------------------------------|
-| `application`   | `<applicaiton>`                                    |
+| `application`   | `<application>`                                    |
 | `business-unit` | `HQ`                                               |
 | `is-production` | `true or false`                                    |
 | `owner`         | `<team-name>: <team-email> cloud-ops or tech-ops`  |
