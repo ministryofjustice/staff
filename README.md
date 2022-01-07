@@ -2,7 +2,7 @@
 
 ## About this repository
 
-Lists repositories used of MoJ Official infrastructure, staff device configuration, provisioning and management. Terraform is used to deploy our services to public cloud services.
+Lists repositories used by MoJ Official infrastructure, device configuration, provisioning, and management of our services.
 
 ### Amazon Web Services Deployment
 
