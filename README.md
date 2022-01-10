@@ -2,7 +2,7 @@
 
 ## About this repository
 
-Lists repositories used by MoJ Official infrastructure and devices.
+This is a list of repositories used by MoJ Official to deploy infrastructure and configure devices. 
 
 ### Amazon Web Services Deployment
 
