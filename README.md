@@ -2,49 +2,47 @@
 
 ## About this repository
 
-Lists repositories used by MoJ Official infrastructure, device configuration, provisioning, and management of our services.
+Lists repositories used by MoJ Official infrastructure and devices.
 
 ### Amazon Web Services Deployment
 
-- [Shared Services Infrastructure](https://github.com/ministryofjustice/staff-device-shared-services-infrastructure) - Create infrastructure from the main AWS shared account into Development, Pre Production and Production via AWS CodePipelines.
-- [Docker Container base Images](https://github.com/ministryofjustice/staff-device-docker-base-images) - Repository for base container images used across multiple services. Created as the solution to DockerHub rate limits as suggested by AWS.
+- [Shared Services Infrastructure](https://github.com/ministryofjustice/staff-device-shared-services-infrastructure) - Used to create AWS CodePipelines for our services.
+- [Docker Container base Images](https://github.com/ministryofjustice/staff-device-docker-base-images) - Container Images repository in AWS ECR.
 
 ### Azure Landing Zone
 
-- [Azure DevOps Pipeline](https://github.com/ministryofjustice/staff-infrastructure-azure-landing-zone) - Azure DevOps pipeline configuration for staff device management and the Azure Landing Zone Hub and Spoke configuration.
+- [Azure DevOps Pipeline](https://github.com/ministryofjustice/staff-infrastructure-azure-landing-zone) - Build and maintain Azure Landing Zone.
 
 ### Certificate Services
 
-- [Public Key Infrastructure](https://github.com/ministryofjustice/staff-infrastructure-certificate-services) - Public Key Infrastructure for devices and users. This repository can redeploy the EC2 instances which Entrust build their managed service on.
+- [Public Key Infrastructure](https://github.com/ministryofjustice/staff-infrastructure-certificate-services) - Public Key Infrastructure for devices and users. This repository only deploys the AWS resources, such as VPC, Security groups, EC2 instances which Entrust build their managed service on.
 
 ### Device Management
 
-- [Windows 10 Configuration](https://github.com/ministryofjustice/staff-device-management-windows10-configuration) - Intune Windows Configuration
-- [Windows 10 Applications](https://github.com/ministryofjuestice/staff-device-management-windows10-apps) - Intune Windows Applications
-- [iOS Configuration](https://github.com/ministryofjustice/staff-device-management-ios-configuration) - iOS Configuration
-- [iOS Applications](https://github.com/ministryofjustice/staff-device-management-ios-apps) - iOS Applications
-- [Windows Virtual Desktop](https://github.com/ministryofjustice/staff-device-management-virtualdesktop) - WVD - Windows Virtual Desktop
-- [Intune Configuration](https://github.com/ministryofjustice/moj-official-intune) - Intune Configuration
-- [Intune Scripts](https://github.com/ministryofjustice/staff-device-management-intune-scripts) - Scripts that are deployed to run on EUC devices managed by Microsoft Intune
+- [Windows 10 Configuration](https://github.com/ministryofjustice/staff-device-management-windows10-configuration) - Intune Windows Configuration.
+- [Windows 10 Applications](https://github.com/ministryofjuestice/staff-device-management-windows10-apps) - Intune Windows Applications.
+- [iOS Configuration](https://github.com/ministryofjustice/staff-device-management-ios-configuration) - iOS Configuration.
+- [iOS Applications](https://github.com/ministryofjustice/staff-device-management-ios-apps) - iOS Applications.
+- [Windows Virtual Desktop](https://github.com/ministryofjustice/staff-device-management-virtualdesktop) - WVD - Windows Virtual Desktop.
 
 ### DHCP / DNS
 
-- [DHCP Server ECR Image](https://github.com/ministryofjustice/staff-device-dhcp-server) - Creates the AWS ECR container image for ISC Kea
-- [Admin console for DHCP and DNS](https://github.com/ministryofjustice/staff-device-dns-dhcp-admin) - Frontend for managing staff device site dhcp dns
-- [Provision infrastructure](https://github.com/ministryofjustice/staff-device-dns-dhcp-infrastructure) - Code to build the AWS infrastructure for the DNS and DHCP platform
+- [DHCP Server ECR Image](https://github.com/ministryofjustice/staff-device-dhcp-server) - Creates the AWS ECR container image for ISC Kea.
+- [Admin console for DHCP and DNS](https://github.com/ministryofjustice/staff-device-dns-dhcp-admin) - Frontend for managing staff device site dhcp dns.
+- [Provision infrastructure](https://github.com/ministryofjustice/staff-device-dns-dhcp-infrastructure) - Code to build the AWS infrastructure for the DNS and DHCP platform.
 - [Disaster Recovery runbook](https://github.com/ministryofjustice/staff-device-dns-dhcp-disaster-recovery) -This repo contains an interactive script which can be used to roll back a corrupt config file for the DNS or DHCP services.
 - [Staff Device DNS / DHCP / Logging integration tests](ministryofjustice/staff-device-logging-dns-dhcp-integration-tests) -These scripts emulate UDP traffic for both DHCP and Syslog requests. They are run from the Corsham VM to test the services over the network.
 
 ### Infrastructure Monitoring and Alerting
 
-- [App Reachability](https://github.com/ministryofjustice/staff-infrastructure-monitoring-app-reachability) - Container to remote write blackbox http application prometheus metrics 
-- [Blackbox Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-blackbox-exporter) - To probe endpoints over HTTP, HTTPS, DNS, TCP and ICMP
-- [DNS Reachability](https://github.com/ministryofjustice/staff-infrastructure-monitoring-dns-reachability) - Container to remote write blackbox DNS prometheus metrics
-- [Data Source Configuration](https://github.com/ministryofjustice/staff-infrastructure-monitoring-config) - To provision data sources for the IMA Platform
-- [Helm Charts](https://github.com/ministryofjustice/staff-infrastructure-monitoring-deployments) - To deploy helm charts to EKS
-- [IMA Platform](https://github.com/ministryofjustice/staff-infrastructure-monitoring) - To monitor and alert on MoJO infrastructure and physical devices
+- [App Reachability](https://github.com/ministryofjustice/staff-infrastructure-monitoring-app-reachability) - Container to remote write blackbox http application prometheus metrics.
+- [Blackbox Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-blackbox-exporter) - To probe endpoints over HTTP, HTTPS, DNS, TCP and ICMP.
+- [DNS Reachability](https://github.com/ministryofjustice/staff-infrastructure-monitoring-dns-reachability) - Container to remote write blackbox DNS prometheus metrics.
+- [Data Source Configuration](https://github.com/ministryofjustice/staff-infrastructure-monitoring-config) - To provision data sources for the IMA Platform.
+- [Helm Charts](https://github.com/ministryofjustice/staff-infrastructure-monitoring-deployments) - Deploy helm charts to EKS
+- [IMA Platform](https://github.com/ministryofjustice/staff-infrastructure-monitoring) - Infrastructure Monitor and alerting.
 - [Metric Aggregation Server](https://github.com/ministryofjustice/staff-infrastructure-metric-aggregation-server) - To pull data from the SNMP exporter (Docker image)
-- [Private DNS Zone](https://github.com/ministryofjustice/staff-device-private-dns-zone) - Add private DNS zones into Route53
+- [Private DNS Zone](https://github.com/ministryofjustice/staff-device-private-dns-zone) - Route53 DNS zone
 - [SNMP Exporter](https://github.com/ministryofjustice/staff-infrastructure-monitoring-snmpexporter) - To scrape data from physical devices (Docker image)
 
 
@@ -97,7 +95,7 @@ Mandatory Tags
 
 | Tag             | Value                                              |
 | --------------- | ---------------------------------------------------|
-| `application`   | `<application>`                                    |
+| `application`   | `<applicaiton>`                                    |
 | `business-unit` | `HQ`                                               |
 | `is-production` | `true or false`                                    |
 | `owner`         | `<team-name>: <team-email> cloud-ops or tech-ops`  |
@@ -109,7 +107,6 @@ Optional Tags
 | `environment-name`       | `production, staging, test, or development`               |
 | `component`              | `API Gateway`                                             |
 | `infrastructure-support` | `<team-name>: <team-email>`                               |
-| `monitor`                | `true or false`                                           |
 | `runbook`                | `The URL of the service’s runbook.`                       |
 | `source-code`            | `The URL(s) for any source code repositories related to this infrastructure, comma separated.` |
 
