@@ -7,4 +7,4 @@ on:
 
 jobs:
   issues-to-project:
-    Uses: ministryofjustice/cloud-operation/.github/workflows/issues-to-project.yml@main
+    Uses: ministryofjustice/cloud-operations/.github/workflows/issues-to-project.yml@main
