@@ -10,3 +10,5 @@ jobs:
     uses: ministryofjustice/cloud-operations-github-actions/.github/workflows/jira-create-workflow-call.yml@main
     secrets:
       JIRA_SECRET: ${{ secrets.JIRA_SECRET }}
+      JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+      JIRA_URL: ${{ secrets.JIRA_URL }}
