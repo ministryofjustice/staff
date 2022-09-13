@@ -1,3 +1,5 @@
+⚠️ **This repository is now archived**
+
 # Ministry of Justice Official - Staff Infrastructure and Devices
 
 ## About this repository
